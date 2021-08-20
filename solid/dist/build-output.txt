@@ -1,0 +1,8 @@
+> vite-template-solid@0.0.0 build
+> vite build
+
+vite v2.5.0 building for production...
+✓ 5 modules transformed.
+dist/index.html                  0.58 KiB
+dist/assets/index.adec9e91.js    0.78 KiB / brotli: 0.37 KiB
+dist/assets/vendor.298a547f.js   5.15 KiB / brotli: 1.85 KiB

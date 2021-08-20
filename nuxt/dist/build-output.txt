@@ -1,0 +1,92 @@
+> amatiasq.com@1.0.0 build
+> nuxt build && nuxt export
+
+ℹ Production build                                                                                                                                                              16:52:33
+ℹ Bundling for server and client side                                                                                                                                           16:52:33
+ℹ Target: static                                                                                                                                                                16:52:33
+ℹ Using components loader to optimize imports                                                                                                                                   16:52:33
+ℹ Discovered Components: .nuxt/components/readme.md                                                                                                                             16:52:33
+✔ Builder initialized                                                                                                                                                           16:52:33
+✔ Nuxt files generated                                                                                                                                                          16:52:33
+
+✔ Client
+  Compiled successfully in 8.12s
+
+✔ Server
+  Compiled successfully in 619.06ms
+
+
+Hash: bbe6dbd893eda2f4db01
+Version: webpack 4.46.0
+Time: 8122ms
+Built at: 20/08/2021 16:52:44
+                         Asset       Size  Chunks                         Chunk Names
+../server/client.manifest.json   7.73 KiB          [emitted]
+                    128fa70.js   2.29 KiB       3  [emitted] [immutable]  runtime
+                    54cd8e0.js    196 KiB       1  [emitted] [immutable]  commons/app
+                    557115d.js  295 bytes       2  [emitted] [immutable]  pages/index
+                    97e8298.js   56.5 KiB       0  [emitted] [immutable]  app
+                      LICENSES  407 bytes          [emitted]
+ + 2 hidden assets
+Entrypoint app = 128fa70.js 54cd8e0.js 97e8298.js
+
+Hash: 7b67b9b0089bb13217ab
+Version: webpack 4.46.0
+Time: 620ms
+Built at: 20/08/2021 16:52:45
+               Asset       Size  Chunks             Chunk Names
+      pages/index.js   1.88 KiB       1  [emitted]  pages/index
+           server.js     80 KiB       0  [emitted]  app
+server.manifest.json  207 bytes          [emitted]
+ + 2 hidden assets
+Entrypoint app = server.js server.js.map
+ℹ Ready to run nuxt generate                                                                                                                                                    16:52:45
+
+ WARN  nuxt export has been deprecated! Please use nuxt generate.                                                                                                               16:52:46
+
+ℹ Production build                                                                                                                                                              16:52:47
+ℹ Bundling for server and client side                                                                                                                                           16:52:47
+ℹ Target: static                                                                                                                                                                16:52:47
+ℹ Using components loader to optimize imports                                                                                                                                   16:52:47
+ℹ Discovered Components: node_modules/.cache/nuxt/components/readme.md                                                                                                          16:52:47
+✔ Builder initialized                                                                                                                                                           16:52:47
+✔ Nuxt files generated                                                                                                                                                          16:52:47
+
+✔ Client
+  Compiled successfully in 7.73s
+
+✔ Server
+  Compiled successfully in 745.14ms
+
+
+Hash: 1dcafa8d0732ff2345f2
+Version: webpack 4.46.0
+Time: 7728ms
+Built at: 20/08/2021 16:52:57
+                         Asset       Size  Chunks                         Chunk Names
+../server/client.manifest.json   7.81 KiB          [emitted]
+                    11aebd8.js  119 bytes       0  [emitted] [immutable]  app
+                    128fa70.js   2.29 KiB       3  [emitted] [immutable]  runtime
+                    54cd8e0.js    196 KiB       1  [emitted] [immutable]  commons/app
+                    557115d.js  295 bytes       2  [emitted] [immutable]  pages/index
+                    8bb3ae4.js   56.5 KiB       4  [emitted] [immutable]  vendors/app
+                      LICENSES  407 bytes          [emitted]
+ + 2 hidden assets
+Entrypoint app = 128fa70.js 54cd8e0.js 8bb3ae4.js 11aebd8.js
+
+Hash: 3f1491c38e45a5cf0bd8
+Version: webpack 4.46.0
+Time: 747ms
+Built at: 20/08/2021 16:52:57
+               Asset       Size  Chunks             Chunk Names
+      pages/index.js   1.88 KiB       1  [emitted]  pages/index
+           server.js   79.7 KiB       0  [emitted]  app
+server.manifest.json  207 bytes          [emitted]
+ + 2 hidden assets
+Entrypoint app = server.js server.js.map
+ℹ Full static generation activated                                                                                                                                              16:52:58
+ℹ Generating output directory: dist/                                                                                                                                            16:52:58
+ℹ Generating pages with full static mode                                                                                                                                        16:52:59
+✔ Generated route "/"                                                                                                                                                           16:52:59
+✔ Client-side fallback created: 200.html                                                                                                                                        16:52:59
+✔ Static manifest generated

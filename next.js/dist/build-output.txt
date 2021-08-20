@@ -1,0 +1,32 @@
+> amatiasq.com@1.0.0 build
+> next build && next export
+
+info  - Using webpack 5. Reason: no next.config.js https://nextjs.org/docs/messages/webpack5
+info  - Checking validity of types
+info  - Creating an optimized production build
+info  - Compiled successfully
+info  - Collecting page data
+info  - Generating static pages (3/3)
+info  - Finalizing page optimization
+
+Page                             Size     First Load JS
+┌ ○ /                            281 B          63.7 kB
+└ ○ /404                         3.06 kB        66.5 kB
++ First Load JS shared by all    63.4 kB
+  ├ chunks/framework.c38115.js   42 kB
+  ├ chunks/main.460b9f.js        19.4 kB
+  ├ chunks/pages/_app.587c4e.js  1.02 kB
+  └ chunks/webpack.2a5a41.js     952 B
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+   (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
+
+info  - Using webpack 5. Reason: no next.config.js https://nextjs.org/docs/messages/webpack5
+info  - using build directory: /ssg-comparison/next.js/.next
+info  - Copying "static build" directory
+info  - No "exportPathMap" found in "next.config.js". Generating map from "./pages"
+info  - Launching 11 workers
+info  - Exporting (2/2)
+Export successful. Files written to /ssg-comparison/next.js/out

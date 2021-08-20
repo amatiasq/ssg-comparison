@@ -1,0 +1,19 @@
+{
+  "name": "amatiasq.com",
+  "version": "0.0.1",
+  "description": "Personal portfolio",
+  "main": "index.js",
+  "authors": {
+    "name": "A. Matías Quezada",
+    "email": "amatiasq@gmail.com"
+  },
+  "repository": "https://github.com/amatiasq/amatiasq.com/amatiasq.com",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

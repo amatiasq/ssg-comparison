@@ -1,0 +1,18 @@
+> amatiasq.com-11ty@1.0.0 build
+> npm run clean && npm run elevently
+
+
+> amatiasq.com-11ty@1.0.0 clean
+> rm -rf dist
+
+
+> amatiasq.com-11ty@1.0.0 elevently
+> ELEVENTY_EXPERIMENTAL=true eleventy
+
+clean: postcss.plugin was deprecated. Migration guide:
+https://evilmartians.com/chronicles/postcss-8-plugin-migration
+Warning: Configuration API `addExtension` is an experimental Eleventy feature with an unstable API. Be careful!
+Writing dist/pages/foo/index.html from ./src/pages/foo.html.
+Writing dist/pages/index.html from ./src/pages/index.vue.
+Built 1 component (eleventy-plugin-vue v0.5.0)
+Wrote 2 files in 0.31 seconds (v0.12.1)

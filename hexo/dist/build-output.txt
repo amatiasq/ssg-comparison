@@ -1,0 +1,27 @@
+> hexo-site@0.0.0 build
+> hexo generate
+
+INFO  Validating config
+INFO  Start processing
+INFO  Files loaded in 179 ms
+(node:54365) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:54365) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:54365) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:54365) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:54365) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:54365) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+INFO  Generated: index.html
+INFO  Generated: fancybox/jquery.fancybox.min.css
+INFO  Generated: css/style.css
+INFO  Generated: js/script.js
+INFO  Generated: fancybox/jquery.fancybox.min.js
+INFO  Generated: css/fonts/fontawesome-webfont.woff
+INFO  Generated: js/jquery-3.4.1.min.js
+INFO  Generated: css/fonts/fontawesome-webfont.woff2
+INFO  Generated: css/fonts/fontawesome-webfont.eot
+INFO  Generated: css/fonts/FontAwesome.otf
+INFO  Generated: css/fonts/fontawesome-webfont.ttf
+INFO  Generated: css/images/banner.jpg
+INFO  Generated: css/fonts/fontawesome-webfont.svg
+INFO  13 files generated in 1.51 s

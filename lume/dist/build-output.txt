@@ -1,0 +1,5 @@
+Check https://deno.land/x/lume/ci.ts
+
+🔥 /foo/index.html /foo.md
+
+🍾 Site built into ./dist

@@ -1,0 +1,43 @@
+> my-website@0.0.0 build
+> docusaurus build
+
+
+[en] Creating an optimized production build...
+
+✔ Client
+
+
+✖ Server
+  Compiled with some errors in 24.06s
+
+Docusaurus Node/SSR could not render static page with path=/404.html because of error: DocNavbarItem: couldn't find any doc with id=intro in version current.
+Available docIds=
+- index
+Docusaurus Node/SSR could not render static page with path=/foo because of error: DocNavbarItem: couldn't find any doc with id=intro in version current.
+Available docIds=
+- index
+Docusaurus Node/SSR could not render static page with path=/docs/index because of error: DocNavbarItem: couldn't find any doc with id=intro in version current.
+Available docIds=
+- index
+
+
+Error: DocNavbarItem: couldn't find any doc with id=intro in version current.
+Available docIds=
+- index
+Error: DocNavbarItem: couldn't find any doc with id=intro in version current.
+Available docIds=
+- index
+Error: DocNavbarItem: couldn't find any doc with id=intro in version current.
+Available docIds=
+- index
+error building locale=en
+Error: Failed to compile with errors.
+    at /Users/amatiasq/repos/ssg-comparison/docusaurus/node_modules/@docusaurus/core/lib/webpack/utils.js:198:24
+    at /Users/amatiasq/repos/ssg-comparison/docusaurus/node_modules/webpack/lib/MultiCompiler.js:554:14
+    at processQueueWorker (/Users/amatiasq/repos/ssg-comparison/docusaurus/node_modules/webpack/lib/MultiCompiler.js:491:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+● Client █████████████████████████ cache (99%) shutdown IdleFileCachePlugin
+ stored
+
+✖ Server

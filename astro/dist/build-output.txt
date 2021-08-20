@@ -1,0 +1,51 @@
+> @example/starter@0.0.1 build
+> astro build
+
+[config] Set "buildOptions.site" to generate correct canonical URLs and sitemap
+[17:29:35] [snowpack] Hint: run "snowpack init" to create a project config file. Using defaults...
+[17:29:35] [snowpack] Welcome to Snowpack! Because this is your first time running
+this project, Snowpack needs to prepare your dependencies. This is a one-time step
+and the results will be cached for the lifetime of your project. Please wait...
+[17:29:35] [snowpack] + astro/dist/internal/__astro_component.js@0.18.12
+[17:29:43] [snowpack] └── shorthash@0.0.2 (dedupe)
+[17:29:43] [snowpack] └── estree-util-value-to-estree@1.2.0 (dedupe)
+[17:29:43] [snowpack]   └── is-plain-obj@3.0.0
+[17:29:44] [snowpack] └── astring@1.7.5 (dedupe)
+[17:29:44] [snowpack] + astro/dist/internal/element-registry.js@0.18.12
+[17:29:44] [snowpack] + astro/dist/internal/fetch-content.js@0.18.12
+[17:29:44] [snowpack] + astro/dist/internal/__astro_slot.js@0.18.12
+[17:29:45] [snowpack] + prismjs@1.24.1
+[17:29:45] [snowpack] + @astrojs/renderer-react/server@0.2.0
+[17:29:45] [snowpack] └── react@17.0.2 (dedupe)
+[17:29:45] [snowpack]   └── object-assign@4.1.1
+[17:29:45] [snowpack] └── react-dom/server.js@17.0.2 (dedupe)
+[17:29:46] [snowpack]   └── object-assign@4.1.1 (dedupe)
+[17:29:46] [snowpack]   └── react@17.0.2 (dedupe)
+[17:29:46] [snowpack]     └── object-assign@4.1.1 (dedupe)
+[17:29:46] [snowpack] + @astrojs/renderer-react/client@0.2.0
+[17:29:46] [snowpack] └── react@17.0.2 (dedupe)
+[17:29:46] [snowpack]   └── object-assign@4.1.1 (dedupe)
+[17:29:46] [snowpack] └── react-dom@17.0.2 (dedupe)
+[17:29:47] [snowpack]   └── react@17.0.2 (dedupe)
+[17:29:47] [snowpack]     └── object-assign@4.1.1 (dedupe)
+[17:29:47] [snowpack]   └── object-assign@4.1.1 (dedupe)
+[17:29:47] [snowpack]   └── scheduler@0.20.2
+[17:29:47] [snowpack] + react/jsx-runtime@17.0.2
+[17:29:47] [snowpack] └── object-assign@4.1.1 (dedupe)
+[17:29:47] [snowpack] + astro/dist/internal/h.js@0.18.12
+[17:29:48] [snowpack] + astro/components/Prism.astro@0.18.12
+[17:29:48] [snowpack] └── @astrojs/prism@0.2.2
+[17:29:48] [snowpack] └── prismjs@1.24.1 (dedupe)
+[17:29:48] [snowpack] + astro/components@0.18.12
+[17:29:49] [snowpack] └── @astrojs/prism@0.2.2 (dedupe)
+[17:29:49] [snowpack] └── prismjs@1.24.1 (dedupe)
+[17:29:49] [snowpack] Ready!
+[build] ! building pages...
+[build] ✔ pages built.
+[build] ! optimizing css...
+[build] ✔ css optimized.
+[build] ! bundling...
+
+   Pages                                                     Page Weight (GZip)
+ ┌ /index.html                                               0.00 kB
+[build] ▶ Build Complete!
