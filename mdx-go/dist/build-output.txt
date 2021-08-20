@@ -1,0 +1,33 @@
+> mdx-go@1.0.0 build
+> mdx-go build docs
+
+[mdx-go] building...
+✔ success [mdx-go] compiled in 1s 471ms
+
+
+ ERROR  Failed to compile with 1 errors                                                                                                                                           17:14:19
+
+This relative module was not found:
+
+* ./Component in ./docs/index.mdx
+Error: Cannot find module '/repos/ssg-comparison/mdx-go/dist/TEMP/App.js'
+Require stack:
+- /ssg-comparison/mdx-go/node_modules/mdx-go/lib/render-html.js
+- /ssg-comparison/mdx-go/node_modules/mdx-go/lib/build.js
+- /ssg-comparison/mdx-go/node_modules/mdx-go/cli.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:941:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:774:27)
+    at Module.require (node:internal/modules/cjs/loader:1013:19)
+    at require (node:internal/modules/cjs/helpers:93:18)
+    at /ssg-comparison/mdx-go/node_modules/mdx-go/lib/render-html.js:61:19
+    at finalCallback (/repos/ssg-comparison/mdx-go/node_modules/webpack/lib/Compiler.js:257:39)
+    at /ssg-comparison/mdx-go/node_modules/webpack/lib/Compiler.js:273:13
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/repos/ssg-comparison/mdx-go/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:33:1)
+    at AsyncSeriesHook.lazyCompileHook (/repos/ssg-comparison/mdx-go/node_modules/tapable/lib/Hook.js:154:20)
+    at onCompiled (/repos/ssg-comparison/mdx-go/node_modules/webpack/lib/Compiler.js:271:21)
+    at /ssg-comparison/mdx-go/node_modules/webpack/lib/Compiler.js:681:15
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/repos/ssg-comparison/mdx-go/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/repos/ssg-comparison/mdx-go/node_modules/tapable/lib/Hook.js:154:20)
+    at /ssg-comparison/mdx-go/node_modules/webpack/lib/Compiler.js:678:31
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/repos/ssg-comparison/mdx-go/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at AsyncSeriesHook.lazyCompileHook (/repos/ssg-comparison/mdx-go/node_modules/tapable/lib/Hook.js:154:20)
