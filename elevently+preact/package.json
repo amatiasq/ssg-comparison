@@ -1,0 +1,20 @@
+{
+  "name": "11preact",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "elevently": "ELEVENTY_EXPERIMENTAL=true eleventy",
+    "clean": "rm -rf dist",
+    "start": "npm run elevently -- --serve",
+    "build": "npm run clean && npm run elevently"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "htm": "^3.1.0",
+    "preact": "^10.5.14",
+    "preact-render-to-string": "^5.1.19"
+  }
+}
