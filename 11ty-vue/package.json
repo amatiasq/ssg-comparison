@@ -13,6 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-vue": "^0.5.0",
+    "autoprefixer": "^10.3.3",
+    "postcss-nested": "^5.0.6"
   }
 }
