@@ -9,3 +9,10 @@ export default {
   }
 }
 </script>
+
+<style>
+  p {
+    padding: 0;
+    background-color: black;
+  }
+</style>
