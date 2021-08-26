@@ -3,8 +3,3 @@
 node_modules
 package-lock.json
 yarn.lock
-
-.docusaurus
-.next
-.nuxt
-react-static/artifacts

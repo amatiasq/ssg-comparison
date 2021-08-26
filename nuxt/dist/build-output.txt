@@ -1,4 +1,4 @@
-> amatiasq.com@1.0.0 build
+> nuxt@1.0.0 build
 > nuxt build && nuxt export
 
 ℹ Production build                                                                                                                                                              16:52:33

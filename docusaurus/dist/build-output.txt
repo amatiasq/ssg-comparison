@@ -32,9 +32,9 @@ Available docIds=
 - index
 error building locale=en
 Error: Failed to compile with errors.
-    at /Users/amatiasq/repos/ssg-comparison/docusaurus/node_modules/@docusaurus/core/lib/webpack/utils.js:198:24
-    at /Users/amatiasq/repos/ssg-comparison/docusaurus/node_modules/webpack/lib/MultiCompiler.js:554:14
-    at processQueueWorker (/Users/amatiasq/repos/ssg-comparison/docusaurus/node_modules/webpack/lib/MultiCompiler.js:491:6)
+    at /ssg-comparison/docusaurus/node_modules/@docusaurus/core/lib/webpack/utils.js:198:24
+    at /ssg-comparison/docusaurus/node_modules/webpack/lib/MultiCompiler.js:554:14
+    at processQueueWorker (/ssg-comparison/docusaurus/node_modules/webpack/lib/MultiCompiler.js:491:6)
     at processTicksAndRejections (node:internal/process/task_queues:78:11)
 
 ● Client █████████████████████████ cache (99%) shutdown IdleFileCachePlugin

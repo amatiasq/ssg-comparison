@@ -1,5 +1,5 @@
 {
-  "name": "amatiasq.com",
+  "name": "nextjs",
   "version": "1.0.0",
   "author": "A. Matías Quezada",
   "scripts": {
@@ -7,14 +7,6 @@
     "build": "next build && next export",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amatiasq/amatiasq.com.git"
-  },
-  "bugs": {
-    "url": "https://github.com/amatiasq/amatiasq.com/issues"
-  },
-  "homepage": "https://github.com/amatiasq/amatiasq.com#readme",
   "devDependencies": {
     "@types/react": "^17.0.5",
     "next": "^10.2.0",

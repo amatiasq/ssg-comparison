@@ -1,12 +1,12 @@
-> amatiasq.com-11ty@1.0.0 build
+> 11ty@1.0.0 build
 > npm run clean && npm run elevently
 
 
-> amatiasq.com-11ty@1.0.0 clean
+> 11ty@1.0.0 clean
 > rm -rf dist
 
 
-> amatiasq.com-11ty@1.0.0 elevently
+> 11ty@1.0.0 elevently
 > ELEVENTY_EXPERIMENTAL=true eleventy
 
 clean: postcss.plugin was deprecated. Migration guide:

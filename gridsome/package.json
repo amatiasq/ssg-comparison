@@ -1,5 +1,5 @@
 {
-  "name": "amatiasq.com-gridsome",
+  "name": "gridsome",
   "private": true,
   "scripts": {
     "develop": "gridsome develop",
