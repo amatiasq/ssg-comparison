@@ -1,0 +1,16 @@
+{
+  "name": "kulfon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "kulfon serve",
+    "build": "kulfon build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kulfon": "^0.42.0"
+  }
+}

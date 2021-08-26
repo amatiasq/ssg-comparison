@@ -1,0 +1,8 @@
+includePaths: []
+stylesheets:
+  - https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+javascripts: []
+deploy:
+  server:
+  path:
+base_url: http://change-me-in-config-yml.com
