@@ -1,0 +1,75 @@
+> npm i --save @astronomersiva/lego                                                                                                
+npm WARN deprecated opn@6.0.0: The package has been renamed to `open`
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated liquid-node@3.0.1: The 'liquid-node' package has been renamed to 'liquid'
+npm WARN deprecated highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+npm ERR! code 1
+npm ERR! path /ssg-comparison/lego/node_modules/sharp
+npm ERR! command failed
+npm ERR! command sh -c (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+npm ERR! TOUCH Release/obj.target/libvips-cpp.stamp
+npm ERR!   CXX(target) Release/obj.target/sharp/src/common.o
+npm ERR! info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.8.1/libvips-8.8.1-darwin-x64.tar.gz
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@7.1.2
+npm ERR! gyp info using node@16.5.0 | darwin | x64
+npm ERR! gyp info find Python using Python version 3.9.5 found at "/usr/local/opt/python@3.9/bin/python3.9"
+npm ERR! (node:28594) [DEP0150] DeprecationWarning: Setting process.config is deprecated. In the future the property will be read-only.
+npm ERR! (Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! gyp info spawn /usr/local/opt/python@3.9/bin/python3.9
+npm ERR! gyp info spawn args [
+npm ERR! gyp info spawn args   '/Users/amatiasq/.nvm/versions/node/v16.5.0/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py',
+npm ERR! gyp info spawn args   'binding.gyp',
+npm ERR! gyp info spawn args   '-f',
+npm ERR! gyp info spawn args   'make',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/ssg-comparison/lego/node_modules/sharp/build/config.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/Users/amatiasq/.nvm/versions/node/v16.5.0/lib/node_modules/npm/node_modules/node-gyp/addon.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/Users/amatiasq/Library/Caches/node-gyp/16.5.0/include/node/common.gypi',
+npm ERR! gyp info spawn args   '-Dlibrary=shared_library',
+npm ERR! gyp info spawn args   '-Dvisibility=default',
+npm ERR! gyp info spawn args   '-Dnode_root_dir=/Users/amatiasq/Library/Caches/node-gyp/16.5.0',
+npm ERR! gyp info spawn args   '-Dnode_gyp_dir=/Users/amatiasq/.nvm/versions/node/v16.5.0/lib/node_modules/npm/node_modules/node-gyp',
+npm ERR! gyp info spawn args   '-Dnode_lib_file=/Users/amatiasq/Library/Caches/node-gyp/16.5.0/<(target_arch)/node.lib',
+npm ERR! gyp info spawn args   '-Dmodule_root_dir=/ssg-comparison/lego/node_modules/sharp',
+npm ERR! gyp info spawn args   '-Dnode_engine=v8',
+npm ERR! gyp info spawn args   '--depth=.',
+npm ERR! gyp info spawn args   '--no-parallel',
+npm ERR! gyp info spawn args   '--generator-output',
+npm ERR! gyp info spawn args   'build',
+npm ERR! gyp info spawn args   '-Goutput_dir=.'
+npm ERR! gyp info spawn args ]
+npm ERR! gyp info spawn make
+npm ERR! gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+npm ERR! In file included from ../src/common.cc:22:
+npm ERR! In file included from /Users/amatiasq/Library/Caches/node-gyp/16.5.0/include/node/node.h:63:
+npm ERR! In file included from /Users/amatiasq/Library/Caches/node-gyp/16.5.0/include/node/v8.h:30:
+npm ERR! /Users/amatiasq/Library/Caches/node-gyp/16.5.0/include/node/v8-internal.h:454:38: error: no template named 'remove_cv_t' in namespace 'std'; did you mean 'remove_cv'?
+npm ERR!             !std::is_same<Data, std::remove_cv_t<T>>::value>::Perform(data);
+npm ERR!                                 ~~~~~^~~~~~~~~~~
+npm ERR!                                      remove_cv
+npm ERR! /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:776:50: note: 'remove_cv' declared here
+npm ERR! template <class _Tp> struct _LIBCPP_TEMPLATE_VIS remove_cv
+npm ERR!                                                  ^
+npm ERR! 1 error generated.
+npm ERR! make: *** [Release/obj.target/sharp/src/common.o] Error 1
+npm ERR! gyp ERR! build error
+npm ERR! gyp ERR! stack Error: `make` failed with exit code: 2
+npm ERR! gyp ERR! stack     at ChildProcess.onExit (/Users/amatiasq/.nvm/versions/node/v16.5.0/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:394:28)
+npm ERR! gyp ERR! stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12)
+npm ERR! gyp ERR! System Darwin 20.4.0
+npm ERR! gyp ERR! command "/Users/amatiasq/.nvm/versions/node/v16.5.0/bin/node" "/Users/amatiasq/.nvm/versions/node/v16.5.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+npm ERR! gyp ERR! cwd /ssg-comparison/lego/node_modules/sharp
+npm ERR! gyp ERR! node -v v16.5.0
+npm ERR! gyp ERR! node-gyp -v v7.1.2
+npm ERR! gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/amatiasq/.npm/_logs/2021-08-26T16_41_11_570Z-debug.log

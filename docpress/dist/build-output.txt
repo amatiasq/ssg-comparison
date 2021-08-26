@@ -1,0 +1,18 @@
+> docpress@1.0.0 build
+> docpress build
+
+/ssg-comparison/docpress/node_modules/docpress/bin/docpress:19
+      if (err) throw err
+               ^
+
+TypeError: Cannot read property 'title' of undefined
+    at indexify (/ssg-comparison/docpress/node_modules/docpress-core/lib/indexify.js:12:33)
+    at /ssg-comparison/docpress/node_modules/docpress-core/lib/index.js:153:12
+    at memoize (/ssg-comparison/docpress/node_modules/docpress-core/lib/memoize.js:19:15)
+    at Object.buildIndex (/ssg-comparison/docpress/node_modules/docpress-core/lib/index.js:152:19)
+    at Ware.<anonymous> (/ssg-comparison/docpress/node_modules/wrap-fn/index.js:45:19)
+    at next (/ssg-comparison/docpress/node_modules/ware/lib/index.js:85:20)
+    at Ware.run (/ssg-comparison/docpress/node_modules/ware/lib/index.js:88:3)
+    at Ware.<anonymous> (/ssg-comparison/docpress/node_modules/docpress-core/lib/index.js:120:9)
+    at Ware.<anonymous> (/ssg-comparison/docpress/node_modules/wrap-fn/index.js:45:19)
+    at next (/ssg-comparison/docpress/node_modules/ware/lib/index.js:85:20)
