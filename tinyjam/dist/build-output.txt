@@ -1,0 +1,10 @@
+> tinyjam@1.0.0 build
+> tinyjam src dist
+
+tinyjam v0.4.0
+
+read    data.md
+compile index.ejs
+render  index.html
+
+Done in 17.921ms.

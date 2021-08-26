@@ -1,0 +1,15 @@
+{
+  "name": "tinyjam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tinyjam src dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tinyjam": "^0.4.0"
+  }
+}
