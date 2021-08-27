@@ -1,0 +1,15 @@
+asset app.js 8.54 KiB [emitted] [minimized] (name: main) 1 related asset
+orphan modules 5.5 KiB [orphan] 2 modules
+cacheable modules 17.9 KiB
+  modules by path ./node_modules/react/ 8.5 KiB
+    ./node_modules/react/index.js 189 bytes [built] [code generated]
+    ./node_modules/react/cjs/react.production.min.js 8.32 KiB [built] [code generated]
+  ./src/example.mdx + 2 modules 7.21 KiB [built] [code generated]
+  ./node_modules/object-assign/index.js 2.17 KiB [built] [code generated]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value.
+Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+webpack 5.51.1 compiled with 1 warning in 1380 ms
