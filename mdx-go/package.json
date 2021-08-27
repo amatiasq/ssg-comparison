@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-go docs",
-    "build": "mdx-go build docs"
+    "build": "mdx-go build src",
+    "start": "mdx-go src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "mdx-go": "^2.0.0-32"
   }
 }
