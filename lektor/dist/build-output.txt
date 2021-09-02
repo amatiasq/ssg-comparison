@@ -1,0 +1,10 @@
+Started build
+U index.html
+U projects/index.html
+U about/index.html
+U static/style.css
+Finished build in 0.18 sec
+Started prune
+Finished prune in 0.01 sec
+
+# I don't know where were those files created :(
