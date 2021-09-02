@@ -1,0 +1,86 @@
+> docz@1.0.0 build
+> docz build
+
+
+> build
+> gatsby build "--prefix-paths"
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║   Gatsby collects anonymous usage analytics                            ║
+║   to help improve Gatsby for all users.                                ║
+║                                                                        ║
+║   If you'd like to opt-out, you can use `gatsby telemetry --disable`   ║
+║   To learn more, checkout https://gatsby.dev/telemetry                 ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+warn Configuring yargs through package.json is deprecated and will be removed in the next major release, please use the JS API instead.
+success open and validate gatsby-configs - 1.988s
+success load plugins - 4.119s
+success onPreInit - 0.035s
+success delete html and css files from previous builds - 0.004s
+success initialize cache - 0.008s
+success copy gatsby files - 1.136s
+success onPreBootstrap - 0.115s
+success createSchemaCustomization - 0.003s
+warn Configuring yargs through package.json is deprecated and will be removed in the next major release, please use the JS API instead.
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.738s
+success building schema - 0.320s
+info Total nodes: 43, SitePage nodes: 1 (use --verbose for breakdown)
+success createPages - 0.002s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.119s
+success update schema - 0.038s
+success onPreExtractQueries - 0.001s
+success extract queries from components - 0.109s
+success write out redirect data - 0.004s
+success onPostBootstrap - 0.002s
+info bootstrap finished - 35.776s
+success run static queries - 0.015s - 1/1 64.95/s
+success run page queries - 0.014s - 3/3 207.01/s
+success write out requires - 0.004s
+warn Configuring yargs through package.json is deprecated and will be removed in the next major release, please use the JS API instead.
+success Building production JavaScript and CSS bundles - 43.309s
+success Rewriting compilation hashes - 0.010s
+success Building HTML renderer - 8.142s
+success Building static HTML for pages - 0.851s - 3/3 3.53/s
+warn Configuring yargs through package.json is deprecated and will be removed in the next major release, please use the JS API instead.
+success onPostBuild - 0.117s
+info Done building in 88.62637821 sec
+
+
+ssg-comparison/docz> mv .docz/dist .                                                                                                                              
+
+
+ssg-comparison/docz> find dist -type f                                                                                                                            
+dist/framework-abcfe06b05461b5b7cdb.js.map
+dist/component---src-index-mdx-2f026d48f80558724852.js.map
+dist/bac1b955-c61b83f7bd89735162b1.js.map
+dist/index.html
+dist/styles-9411612e31e4f14527d1.js
+dist/bac1b955-c61b83f7bd89735162b1.js
+dist/app-e12717d7097ad66ee5fa.js.map
+dist/404.html
+dist/component---src-index-mdx-2f026d48f80558724852.js
+dist/app-e12717d7097ad66ee5fa.js
+dist/styles.2543ff947a193d7f33b1.css
+dist/webpack.stats.json
+dist/webpack-runtime-24cb6525d6c7ef9181d7.js
+dist/framework-abcfe06b05461b5b7cdb.js.LICENSE.txt
+dist/component---src-pages-404-js-7c9491d5dc8cd1ae861d.js
+dist/styles-9411612e31e4f14527d1.js.map
+dist/chunk-map.json
+dist/page-data/sq/d/1635659820.json
+dist/page-data/404.html/page-data.json
+dist/page-data/app-data.json
+dist/page-data/index/page-data.json
+dist/page-data/404/page-data.json
+dist/polyfill-2329ce6865b34c2385ed.js
+dist/polyfill-2329ce6865b34c2385ed.js.map
+dist/framework-abcfe06b05461b5b7cdb.js
+dist/404/index.html
+dist/app-e12717d7097ad66ee5fa.js.LICENSE.txt
+dist/component---src-pages-404-js-7c9491d5dc8cd1ae861d.js.map
+dist/component---src-index-mdx-2f026d48f80558724852.js.LICENSE.txt
+dist/webpack-runtime-24cb6525d6c7ef9181d7.js.map

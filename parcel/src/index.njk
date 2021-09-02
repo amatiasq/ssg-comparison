@@ -1,0 +1,14 @@
+---
+title: My example page
+description: This is my example page
+list:
+ - item 1
+ - item 2
+ - item 3
+---
+<h1>{{ title }}</h1>
+<p>{{ description }}</h2>
+<ul>
+{% for item in list %}
+    <li>{{ item }}</li>
+{% endfor %}

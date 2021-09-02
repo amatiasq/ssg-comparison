@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+slug: "{{ urlize .Name }}"
 ---
-
+<p>Default content</p>
