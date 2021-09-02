@@ -1,0 +1,8 @@
+Configuration file: /Users/amatiasq/repos/ssg-comparison/jekyll/_config.yml
+            Source: /Users/amatiasq/repos/ssg-comparison/jekyll
+       Destination: /Users/amatiasq/repos/ssg-comparison/jekyll/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+                    done in 0.587 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
