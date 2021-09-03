@@ -1,0 +1,2 @@
+- [Good video](https://www.youtube.com/watch?v=c9g4UkHkzLs)
+- [Jamstack site](https://jamstack.org/generators/)
