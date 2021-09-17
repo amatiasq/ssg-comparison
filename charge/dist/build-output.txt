@@ -1,0 +1,7 @@
+
+> build
+> charge build pages dist
+
+[builder] › 🔨 building  /index.html
+[builder] › 🔨 building  /test.html
+npm run build  3.64s user 0.94s system 101% cpu 4.509 total

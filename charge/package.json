@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "charge serve pages",
+    "build": "charge build pages dist"
+  },
+  "devDependencies": {
+    "@static/charge": "^1.7.0"
+  }
+}
