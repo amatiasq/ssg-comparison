@@ -1,0 +1,57 @@
+This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills
+This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills
+Check file:///Users/amatiasq/repos/ssg-comparison/pagic/pagic.config.ts?version=12010165487591173.ts
+Download https://deno.land/x/pagic@v1.4.0/src/themes/default/mod.ts
+Check https://deno.land/x/pagic@v1.4.0/src/themes/default/mod.ts
+Download https://deno.land/x/pagic@v1.4.0/src/plugins/clean.tsx
+Check https://deno.land/x/pagic@v1.4.0/src/plugins/clean.tsx
+Download https://deno.land/x/pagic@v1.4.0/src/plugins/init.tsx
+Check https://deno.land/x/pagic@v1.4.0/src/plugins/init.tsx
+Download https://deno.land/x/pagic@v1.4.0/src/plugins/md.tsx
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/markdown-it-anchor/index.js
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/markdown-it-title/index.js
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/prism/mod.ts
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/markdown-it-katex/index.js
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/markdown-it-highlight-lines/index.js
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/markdown-it-replace-link/index.js
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/markdown-it-toc-done-right/index.js
+Download https://deno.land/x/pagic@v1.4.0/src/vendors/prism/prism.js
+Download https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.mjs
+Check https://deno.land/x/pagic@v1.4.0/src/plugins/md.tsx
+Download https://deno.land/x/pagic@v1.4.0/src/plugins/tsx.tsx
+Check https://deno.land/x/pagic@v1.4.0/src/plugins/tsx.tsx
+Download https://deno.land/x/pagic@v1.4.0/src/plugins/script.tsx
+Check https://deno.land/x/pagic@v1.4.0/src/plugins/script.tsx
+Download https://deno.land/x/pagic@v1.4.0/src/plugins/layout.tsx
+Check https://deno.land/x/pagic@v1.4.0/src/plugins/layout.tsx
+Download https://deno.land/x/pagic@v1.4.0/src/plugins/out.tsx
+Download https://cdn.pagic.org/react-helmet@6.1.0/esnext/react-helmet.js
+Check https://deno.land/x/pagic@v1.4.0/src/plugins/out.tsx
+[Pagic] Plugin clean start
+[Pagic] Clean dist
+[Pagic] Plugin init start
+[Pagic] Plugin md start
+[Pagic] Plugin tsx start
+[Pagic] Plugin script start
+[Pagic] Compile pagic file src/themes/default/_layout.tsx
+[Pagic] Compile file /Users/amatiasq/repos/ssg-comparison/pagic/pagic.config.ts
+[Pagic] Copy pagic file src/plugins/script_index.js
+[Pagic] Download file https://deno.land/x/pagic@v1.4.0/src/plugins/script_index.js
+[Pagic] Plugin layout start
+Download https://deno.land/x/pagic@v1.4.0/src/themes/default/_layout.tsx
+Check https://deno.land/x/pagic@v1.4.0/src/themes/default/_layout.tsx
+[Pagic] Plugin out start
+[Pagic] Write /Users/amatiasq/repos/ssg-comparison/pagic/dist/index.html
+[Pagic] Copy pagic file src/themes/default/assets/index.css
+[Pagic] Download file https://deno.land/x/pagic@v1.4.0/src/themes/default/assets/index.css
+[Pagic] Copy pagic file src/themes/default/assets/prism_tomorrow.css
+[Pagic] Download file https://deno.land/x/pagic@v1.4.0/src/themes/default/assets/prism_tomorrow.css
+[Pagic] Copy pagic file src/themes/default/assets/reset.css
+[Pagic] Download file https://deno.land/x/pagic@v1.4.0/src/themes/default/assets/reset.css
+[Pagic] Copy pagic file src/themes/default/assets/variables.css
+[Pagic] Download file https://deno.land/x/pagic@v1.4.0/src/themes/default/assets/variables.css
+[Pagic] Copy pagic file src/themes/default/favicon.ico
+[Pagic] Download file https://deno.land/x/pagic@v1.4.0/src/themes/default/favicon.ico
+[Pagic] Write /Users/amatiasq/repos/ssg-comparison/pagic/dist/index_props.js
+[Pagic] Write /Users/amatiasq/repos/ssg-comparison/pagic/dist/_layout.js
+[Pagic] Write /Users/amatiasq/repos/ssg-comparison/pagic/dist/pagic.config.js
