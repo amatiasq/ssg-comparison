@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "react": "https://deno.land/x/react_deno@17.0.2/src/react.js",
+    "lume": "https://deno.land/x/lume@v1.6.2/mod.ts",
+    "lume/": "https://deno.land/x/lume@v1.6.2/",
+    "https://deno.land/x/lume/": "https://deno.land/x/lume@v1.6.2/"
+  }
+}

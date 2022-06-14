@@ -4,13 +4,13 @@
     {
       "request": "launch",
       "type": "pwa-node",
-      "program": "https:/deno.land/x/lume@v1.1.0/cli.ts",
+      "program": "https:/deno.land/x/lume@v1.6.2/cli.ts",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
       "runtimeArgs": [
         "run",
         "--unstable",
-        "--import-map=.vscode/lume_import_map.json",
+        "--import-map=import_map.json",
         "--inspect",
         "--allow-all"
       ],
@@ -20,13 +20,13 @@
     {
       "request": "launch",
       "type": "pwa-node",
-      "program": "https:/deno.land/x/lume@v1.1.0/cli.ts",
+      "program": "https:/deno.land/x/lume@v1.6.2/cli.ts",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "deno",
       "runtimeArgs": [
         "run",
         "--unstable",
-        "--import-map=.vscode/lume_import_map.json",
+        "--import-map=import_map.json",
         "--inspect",
         "--allow-all"
       ],

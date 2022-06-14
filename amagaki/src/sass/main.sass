@@ -1,0 +1,18 @@
+@use 'utils/type'
+
+@import 'components/Button/Button'
+
+html,
+body
+    +type.body
+    -webkit-font-smoothing: antialiased
+    margin: 0
+    padding: 0
+
+degu-image,
+degu-video
+    display: block
+    line-height: 0
+
+img
+    max-width: 100%

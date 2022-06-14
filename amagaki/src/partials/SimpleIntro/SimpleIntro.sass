@@ -1,0 +1,20 @@
+@use 'utils/breakpoints'
+@use 'utils/grid'
+@use 'utils/type'
+
+.simple-intro
+    text-align: center
+
+.simple-intro__grid
+    +grid.container
+
+.simple-intro__grid__content
+    +breakpoints.mobile
+        +grid.range(1, 4)
+    +breakpoints.tablet
+        +grid.range(3, 10)
+    +breakpoints.laptop-gt
+        +grid.range(1, 12)
+
+.simple-intro__grid__content__title
+    +type.heading-2

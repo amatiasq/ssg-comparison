@@ -1,0 +1,37 @@
+@use 'utils/color'
+@use 'utils/spacing'
+
+.footer
+    --module-border-color: #{color.$border}
+    --module-background: #{color.$secondary-background}
+    background: var(--module-background)
+    border-top: 1px solid var(--module-border-color)
+    padding: spacing.$size-20
+
+.footer__grid
+    display: flex
+    margin: 0 auto
+    max-width: spacing.$max-width
+
+.footer__grid__links
+    display: flex
+    flex-direction: row
+    flex-grow: 1
+    gap: spacing.$size-20
+
+.footer__grid__aside
+    display: flex
+
+.footer__grid__aside__switcher
+    align-items: center
+    display: flex
+    gap: spacing.$size-10
+    justify-content: center
+
+.footer__grid__aside__switcher__label
+    display: flex
+    .material-icons
+        font-size: 18px
+
+.footer__grid__aside__switcher__form
+    display: flex

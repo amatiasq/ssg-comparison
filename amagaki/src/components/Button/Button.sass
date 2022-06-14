@@ -1,0 +1,69 @@
+@use 'utils/color'
+@use 'utils/spacing'
+@use 'utils/type'
+
+=icon-font
+  content: var(--button-icon)
+  font-family: 'Material Icons'
+  font-size: 140%
+  max-height: 23px
+  max-width: 23px
+  overflow: hidden
+  position: relative
+  margin-right: -2px
+
+.button
+  +type.button
+  align-items: center
+  appearance: none
+  background: var(--button-background)
+  border: 1px solid var(--button-border-color)
+  border-radius: 20px
+  box-shadow: var(--button-box-shadow, none)
+  color: var(--button-text-color)
+  cursor: pointer
+  display: inline-flex
+  justify-content: center
+  padding: 6px 20px 7px
+  text-decoration: none
+  text-rendering: optimizeLegibility
+  transition: all 200ms
+
+  &:hover,
+  &:visited:hover
+    background: var(--button-background-hover)
+    border-color: var(--button-border-color-hover)
+    color: var(--button-text-color-hover, var(--button-text-color))
+
+  &,
+  &--medium-emphasis
+    --button-border-color: rgba(0, 0, 0, .15)
+    --button-background: #fff
+    --button-background-hover: #f6f9fe
+    --button-border-color-hover: #2D74DE
+    --button-text-color-hover: #09329B
+
+  &--high-emphasis
+    --button-border-color: transparent
+    --button-background: #2D74DE
+    --button-text-color: #fff
+    --button-text-color-hover: #fff
+    --button-background-hover: #09329B
+    --button-border-color-hover: transparent
+
+  &--low-emphasis
+    --button-background-hover: transparent
+    --button-background: transparent
+    --button-border-color: transparent
+    --button-border-color-hover: transparent
+    --button-text-color-hover: #09329B
+    --button-text-color: #2D74DE
+
+.button__label
+  align-items: center
+  display: inline-flex
+
+.button__label:after
+  +icon-font
+  margin-left: 6px
+  margin-right: -6px

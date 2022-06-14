@@ -1,0 +1,89 @@
+{
+  "options": {
+    "merge-default-rules": false,
+    "max-warnings": 200
+  },
+  "files": {
+    "include": "sass/**/*.s+(a|c)ss",
+    "ignore": [
+      "sass/vendor/**/*.*"
+    ]
+  },
+  "rules": {
+    "bem-depth": 1,
+    "border-zero": [
+      1,
+      {
+        "convention": "none"
+      }
+    ],
+    "brace-style": 2,
+    "declarations-before-nesting": 2,
+    "empty-line-between-blocks": 2,
+    "extends-before-mixins": 2,
+    "extends-before-declarations": 2,
+    "hex-notation": [
+      2,
+      {
+        "style": "lowercase"
+      }
+    ],
+    "indentation": [
+      2,
+      {
+        "size": 2
+      }
+    ],
+    "max-line-length": 1,
+    "mixins-before-declarations": [
+      2,
+      {
+        "exclude": [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+          "md-lt",
+          "lg-lt",
+          "xl-lt"
+        ]
+      }
+    ],
+    "no-warn": 1,
+    "no-debug": 1,
+    "no-duplicate-properties": 2,
+    "no-empty-rulesets": 2,
+    "no-ids": 2,
+    "no-important": 1,
+    "no-invalid-hex": 2,
+    "no-mergeable-selectors": 1,
+    "no-misspelled-properties": 1,
+    "one-declaration-per-line": 2,
+    "placeholder-in-extend": 2,
+    "pseudo-element": 1,
+    "property-sort-order": [
+      1,
+      {
+        "order": "recess",
+        "ignore-custom-properties": true
+      }
+    ],
+    "quotes": 1,
+    "space-after-colon": 2,
+    "space-after-comma": 2,
+    "space-before-brace": 2,
+    "space-before-colon": 2,
+    "space-between-parens": 2,
+    "variable-for-property": [
+      0,
+      {
+        "properties": [
+          "margin",
+          "content"
+        ]
+      }
+    ],
+    "zero-unit": 2
+  }
+}

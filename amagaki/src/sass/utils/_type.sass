@@ -1,0 +1,85 @@
+@use 'breakpoints'
+@use 'inspect'
+
+=font-family-primary
+  font-family: 'Manrope', Arial, Helvetica, sans-serif
+
+=font-family-secondary
+  font-family: 'Manrope', Arial, Helvetica, sans-serif
+
+=font($size, $lineHeight, $letterSpacing: 0)
+  font-size: $size
+  letter-spacing: $letterSpacing
+  line-height: $lineHeight
+
+=heading-1
+  +inspect.annotation('Heading 1')
+  +font-family-primary
+  +font(60px, 68px, -2px)
+  font-weight: 700
+
+=heading-2
+  +inspect.annotation('Heading 2')
+  +font-family-primary
+  +font(48px, 56px, -1px)
+  font-weight: 700
+
+=heading-3
+  +inspect.annotation('Heading 3')
+  +font-family-primary
+  +font(36px, 44px)
+  font-weight: 700
+
+=heading-4
+  +inspect.annotation('Heading 4')
+  +font-family-primary
+  +font(28px, 36px)
+
+=heading-5
+  +font(20px, 28px)
+
+=body-large
+  +inspect.annotation('Body Large')
+  +font-family-secondary
+  +font(18px, 28px)
+
+=body
+  +inspect.annotation('Body')
+  +font-family-secondary
+  +font(16px, 24px)
+
+=small
+  +inspect.annotation('Small')
+  +font-family-secondary
+  +font(12px, 24px)
+
+=eyebrow
+  +inspect.annotation('Eyebrow')
+  +font(14px, 20px, 0.5px)
+  font-weight: 700
+
+=label
+  +inspect.annotation('Label')
+  +font-family-secondary
+  +font(11px, 16px, 0.5px)
+
+=button
+  +inspect.annotation('Button')
+  +font(16px, 24px, 0.25px)
+  font-weight: 500
+
+=nav-item
+  +inspect.annotation('Nav item')
+  +font-family-primary
+  font-size: 18px
+  line-height: 1.22
+  letter-spacing: 1.17px
+  font-weight: 500
+  +breakpoints.laptop-gt
+    font-size: 15px
+    line-height: 24px
+    letter-spacing: initial
+
+=footnote
+  +inspect.annotation('Footnote')
+  +font(12px, 24px, .35px)

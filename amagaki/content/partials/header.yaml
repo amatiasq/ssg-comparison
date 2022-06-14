@@ -1,0 +1,16 @@
+partial: Header
+logo:
+  doc: !pod.doc /content/pages/index.yaml
+  image:
+    url: !pod.staticFile '/src/static/images/amagaki.png'
+    altText: 'Logo'
+    width: 40
+    height: 40
+nav: !pod.docs ['/content/pages/**', {sort: 'order'}]
+buttons:
+- label: Sign up
+  url: '#'
+  options: ['high-emphasis']
+- label: Log in
+  url: '#'
+  options: ['medium-emphasis']

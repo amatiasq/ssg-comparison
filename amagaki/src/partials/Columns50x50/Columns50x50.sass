@@ -1,0 +1,65 @@
+@use 'utils/breakpoints'
+@use 'utils/grid'
+@use 'utils/spacing'
+@use 'utils/type'
+
+.columns-50x50__grid
+    +grid.container
+    +breakpoints.tablet-lt
+        text-align: center
+
+.columns-50x50__grid__secondary
+    +breakpoints.mobile
+        +grid.range(1, 4)
+    +breakpoints.tablet
+        +grid.range(3, 10)
+    +breakpoints.laptop-gt
+        +grid.range(2, 6)
+
+.columns-50x50__grid__primary
+    +breakpoints.mobile
+        +grid.range(1, 4)
+    +breakpoints.tablet
+        +grid.range(3, 10)
+    +breakpoints.laptop-gt
+        +grid.range(8, 11)
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+.columns-50x50__grid__primary__eyebrow
+    +type.eyebrow
+    margin-bottom: spacing.$size-10
+
+.columns-50x50__grid__primary__title
+    +type.heading-3
+
+    & + .columns-50x50__grid__primary__body
+        margin-top: spacing.$size-20
+
+.columns-50x50__grid__primary__body
+    max-width: spacing.$max-body-width
+    & + .columns-50x50__grid__primary__buttons
+        margin-top: spacing.$size-20
+
+.columns-50x50__grid__secondary
+    align-items: center
+    display: flex
+    justify-content: center
+
+    + .columns-50x50__grid__primary
+        +breakpoints.tablet-lt
+            margin-top: spacing.$size-40
+
+.columns-50x50__grid__secondary__asset
+    line-height: 0
+    width: 100%
+
+.columns-50x50__grid__secondary__asset img
+    height: auto
+    max-width: 100%
+    width: 100%
+
+.columns-50x50--reversed
+    .columns-50x50__grid
+        +grid.reversed

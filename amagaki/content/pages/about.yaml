@@ -1,0 +1,92 @@
+description: About page description.
+title: About – Amagaki Starter
+navTitle: About
+order: 1
+
+partials:
+
+- partial: Spacer
+  options:
+  - large
+
+- partial: Hero
+  title: Culpa sunt ad labore labore
+  body: Consequat fugiat Lorem fugiat consectetur consectetur. Ut culpa et sunt nulla et dolore anim do sit consequat et. Est commodo exercitation irure do irure tempor eiusmod mollit. Amet sunt adipisicing et fugiat Lorem incididunt nostrud culpa. Fugiat consectetur consectetur voluptate dolor culpa commodo ea do ullamco tempo.
+  buttons:
+  - label: Learn more
+    url: '#'
+    options: ['high-emphasis']
+    icon: 'navigate_next'
+  - label: Watch video
+    url: '#'
+    options: ['low-emphasis']
+
+- partial: Spacer
+  options:
+  - medium
+
+- partial: SimpleIntro
+  title: Laboris commodo aliquip velit ullamco
+
+- partial: Spacer
+  options:
+  - large
+
+- partial: Columns50x50
+  primary:
+    eyebrow: Duis laborum dolor amet excepteur
+    title: Magna do magna occaecat irure.
+    body: Esse in dolor anim excepteur incididunt laborum pariatur consequat. Occaecat officia elit nisi Lorem ex ex mollit aliqua ipsum fugiat quis amet sit. Mollit dolore cillum ea commodo ullamco cillum minim nisi et reprehenderit consectetur aute fugiat.
+  secondary:
+    assets:
+    - url: /static/placeholder/1x1.svg
+
+- partial: Spacer
+  options:
+  - large
+
+- partial: PromoBanner
+  assets:
+  - url: /static/placeholder/4x3.svg?bgColor=F3492F
+  body: Aute amet voluptate voluptate proident ullamco. Pariatur cupidatat aute officia ea exercitation reprehenderit.
+  buttons:
+  - url: '#'
+    label: Learn more
+
+- partial: Spacer
+  options:
+  - large
+
+- partial: SimpleIntro
+  title: Adipisicing culpa tempor deserunt
+
+- partial: Spacer
+  options:
+  - large
+
+- partial: Columns50x50
+  primary:
+    eyebrow: Eiusmod amet ea culpa
+    title: Ex id reprehenderit in ullamco in nisi.
+    body: Lorem incididunt anim dolore nulla enim in ea. Dolor id irure dolor adipisicing in esse enim labore occaecat proident reprehenderit. Sint enim nostrud esse anim id sint minim cupidatat.
+  secondary:
+    assets:
+    - url: /static/placeholder/1x1.svg
+
+- partial: Spacer
+  options:
+  - large
+
+- partial: Columns50x50
+  options: ['reversed']
+  primary:
+    eyebrow: Eu amet mollit consectetur
+    title: Ad eiusmod do consequat amet quis.
+    body: Anim anim reprehenderit adipisicing elit non sit amet dolore reprehenderit proident aliquip. Lorem ad labore eu aute irure minim sunt officia ullamco anim culpa qui aliquip. Eu officia incididunt laborum est mollit anim velit. Sit incididunt ex est nostrud esse quis ullamco elit exercitation reprehenderit enim.
+  secondary:
+    assets:
+    - url: /static/placeholder/1x1.svg
+
+- partial: Spacer
+  options:
+  - large

@@ -1,0 +1,53 @@
+@use 'utils/breakpoints'
+@use 'utils/color'
+@use 'utils/grid'
+@use 'utils/spacing'
+@use 'utils/type'
+
+.promo-banner
+    --module-background: #{color.$secondary-background}
+    background: var(--module-background)
+    padding: spacing.$size-20
+
+.promo-banner__wrap
+    +grid.container
+    +breakpoints.tablet-lt
+        text-align: center
+    +breakpoints.laptop-gt
+        margin: 0 auto
+        max-width: 700px
+
+.promo-banner__wrap__assets
+    display: flex
+    +breakpoints.mobile
+        +grid.range(1, 4)
+    +breakpoints.tablet
+        +grid.range(5, 8)
+    +breakpoints.laptop-gt
+        +grid.range(1, 4)
+
+    img
+        height: auto
+        width: 100%
+
+    & + .promo-banner__wrap__content
+        +breakpoints.tablet-lt
+            margin-top: spacing.$size-20
+
+.promo-banner__wrap__content
+    display: flex
+    flex-direction: column
+    justify-content: center
+    +breakpoints.mobile
+        +grid.range(1, 4)
+    +breakpoints.tablet
+        +grid.range(3, 10)
+    +breakpoints.laptop-gt
+        +grid.range(5, 12)
+
+.promo-banner__wrap__content__body
+    & + .promo-banner__wrap__content__buttons
+        margin-top: spacing.$size-20
+
+.promo-banner__wrap__content__assets
+    margin-top: spacing.$size-60

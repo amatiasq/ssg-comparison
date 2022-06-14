@@ -1,0 +1,5 @@
+$path: /${doc.collectionPath}/${doc.basename}/
+$localization:
+  path: /intl/${doc.locale.id}/${doc.collectionPath}/${doc.basename}/
+  locales:
+  - en

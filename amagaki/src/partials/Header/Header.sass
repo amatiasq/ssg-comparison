@@ -1,0 +1,119 @@
+@use 'utils/breakpoints'
+@use 'utils/color'
+@use 'utils/type'
+@use 'utils/spacing'
+
+=header-link
+    color: inherit
+    display: flex
+    font-weight: 600
+    position: relative
+    text-decoration: none
+    &::after
+        bottom: -2px
+        content: ''
+        display: block
+        height: 1px
+        position: absolute
+        width: 0
+        transition: width 200ms ease-in-out
+
+    &--active::after
+        background: var(--link-active-border-color)
+        width: 100%
+
+    &:hover::after
+        background: var(--link-hover-border-color)
+        width: 100%
+
+.header
+    --module-border-color: #{color.$border}
+    --module-background: #{color.$background}
+    --link-active-border-color: black
+    --link-hover-border-color: rgba(0, 0, 0, 0.4)
+    background: var(--module-background)
+    border-bottom: 1px solid var(--module-border-color)
+    padding: spacing.$size-20
+    position: sticky
+    top: 0
+
+.header__grid__logo
+    display: flex
+
+.header__grid__logo a
+    display: inline-flex
+
+.header__grid
+    align-items: center
+    display: flex
+    gap: spacing.$size-40
+    margin: 0 auto
+    max-width: spacing.$max-width
+
+.header__grid__links
+    +breakpoints.tablet-lt
+        display: none
+    +breakpoints.laptop-gt
+        display: flex
+        flex-direction: row
+        flex-grow: 1
+        gap: spacing.$size-20
+
+.header__grid__links__link
+    +header-link
+
+.header__grid__buttons
+    display: flex
+    gap: spacing.$size-10
+    justify-content: flex-end
+    +breakpoints.tablet-lt
+        flex-grow: 1
+
+.header__grid__buttons__desktop-buttons
+    +breakpoints.tablet-lt
+        .button--medium-emphasis
+            display: none
+
+.header__grid__buttons__desktop-buttons
+    display: flex
+    gap: spacing.$size-10
+    justify-content: flex-end
+
+.header__mobile-nav
+    +breakpoints.laptop-gt
+        display: none
+
+.header__mobile-nav__summary
+    display: block
+    list-style: none
+
+    &::-webkit-details-marker
+        display: none
+
+.header__mobile-nav__dialog
+    background: var(--module-background)
+    bottom: 0
+    height: 100vh
+    left: 0
+    position: absolute
+    right: 0
+    top: 81px
+    z-index: 10
+    padding: spacing.$size-20
+
+.header__mobile-nav__dialog__links
+    display: inline-flex
+    flex-direction: column
+    text-align: center
+    gap: spacing.$size-10
+
+.header__mobile-nav__dialog__links__link
+    +header-link
+
+.header__mobile-nav__buttons
+    margin-top: spacing.$size-20
+    display: flex
+    gap: spacing.$size-10
+
+    .button--high-emphasis
+        display: none

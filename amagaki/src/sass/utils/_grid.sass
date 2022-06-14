@@ -1,0 +1,51 @@
+@use 'breakpoints'
+
+$grid-column-gap-mobile: 24px
+$grid-column-gap-tablet: 24px
+$grid-column-gap-laptop: 24px
+$grid-column-gap-desktop: 24px
+
+$grid-horizontal-padding-mobile: 16px
+$grid-horizontal-padding-tablet: 24px
+$grid-horizontal-padding-laptop: 24px
+
+$grid-max-width-tablet: 600px
+$grid-max-width-desktop: 1392px
+
+=column-gap
+  +breakpoints.mobile
+    column-gap: $grid-column-gap-mobile
+  +breakpoints.tablet
+    column-gap: $grid-column-gap-tablet
+  +breakpoints.laptop
+    column-gap: $grid-column-gap-laptop
+  +breakpoints.desktop
+    column-gap: $grid-column-gap-desktop
+
+=container
+  display: grid
+  +column-gap
+  +breakpoints.mobile
+    grid-template-columns: repeat(4, 1fr)
+    padding: 0 $grid-horizontal-padding-mobile
+  +breakpoints.tablet
+    grid-template-columns: repeat(12, 1fr)
+    padding: 0 $grid-horizontal-padding-tablet
+    max-width: $grid-max-width-tablet
+    margin: 0 auto
+  +breakpoints.laptop
+    grid-template-columns: repeat(12, 1fr)
+    padding: 0 $grid-horizontal-padding-laptop
+  +breakpoints.desktop
+    grid-template-columns: repeat(12, 1fr)
+    margin: 0 auto
+    max-width: $grid-max-width-desktop
+
+=range($start, $end)
+  grid-column-start: #{$start}
+  grid-column-end: span #{$end - $start + 1}
+
+=reversed
+  direction: rtl
+  & > *
+    direction: ltr
